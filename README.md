@@ -34,8 +34,7 @@ No entanto, a introdução da plataforma DE1-SoC introduz a dispensabilidade do 
         <li><a href="#comp_u">  Componentes Utilizados</a></li>
         <li><a href="#metodo"> Metodologia</a></li>
         <li><a href="#test"> Testes</a></li>
-        <li><a href="#resultado"> Resultados alcançados</a></li>
-        <li><a href="#conclusion"> Conclusão</a></li>
+        <li><a href="#resultconcl"> Resultados e conclusão</a></li>
         <li><a href="#makefile"> Instruções de execução</a></li>
         <li><a href="#ref"> Referências</a></li>
         </ul>
@@ -111,11 +110,13 @@ A placa suporta transferência Gigabit Ethernet por um chip externo Micrel KSZ90
 Função HPS Ethernet MAC. O chip KSZ9021RN com Gigabit 10/100/1000 Mbps integrado
 O transceptor Ethernet também suporta interface RGMII MAC.
 
-### Portas USB 2.0
+### Monitor CRT
 
-A placa possui duas portas USB 2.0 tipo A com um controlador SMSC USB3300 e um hub de 2 portas
-controlador. O dispositivo SMSC USB3300 em pacote QFN de 32 pinos faz interface com o SMSC
-Controlador de hub USB2512B.
+O monitor utilizado no projeto foi o DELL M782p, um modelo CRT. Esse tipo de monitor utiliza um tubo de raios catódicos (CRT) para exibir imagens. O DELL M782p possui uma tela de visualização de 17 polegadas e uma resolução máxima de 1280x1024 pixels. Ele oferece uma interface VGA para conexão com o computador ou placa de desenvolvimento. Os monitores CRT são conhecidos por sua reprodução de cores vibrantes e tempos de resposta rápidos, tornando-os uma escolha adequada para projetos que exigem interação em tempo real, como jogos e simulações.
+
+### GPU
+
+Unidade de processamento gráfico, também conhecida como GPU, é um componente eletrônico projetado para acelerar tarefas relacionadas à computação gráfica e ao processamento de imagens em uma ampla gama de dispositivos, incluindo placas de vídeo, placas-mãe, smartphones e computadores pessoais (PCs). A capacidade da GPU de realizar cálculos matemáticos complexos de forma rápida e eficiente reduz significativamente o tempo necessário para que um computador execute uma variedade de programas
 
 <div id="metodo"> 
 <h2> Metodologia </h2>
@@ -127,9 +128,6 @@ Controlador de hub USB2512B.
 
 ### Comunicação Driver/Biblioteca
 
-
-
-
 <div id="test"> 
 <h2> Testes</h2>
 <div align="justify">
@@ -137,36 +135,29 @@ Controlador de hub USB2512B.
 
 Esta sessão é reservada para demonstração dos testes feitos no projeto.
 
-
-<p align="center">
-  <img src="" />
-</p>
-
   <h4 align="center"> Primeiro Momento </h4>
-
-
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/ZeDaManga01/M-dias---PBL2---MI-_SD/blob/main/1st%20Moment.jpeg" />
 </p>
+  
 
   <h4 align="center"> Segundo Momento </h4>
-
-
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/ZeDaManga01/M-dias---PBL2---MI-_SD/blob/main/2nd%20Moment.jpeg" />
 </p>
+  
 
+  <h4 align="center"> Momento Final </h4>
+<p align="center">
+  <img src="https://github.com/ZeDaManga01/M-dias---PBL2---MI-_SD/blob/main/Final%20Moment.jpeg" />
 </p>
- <h4 align="center"> Momento Final </h4>
+ 
 
-
-<div id="resultado"> 
-<h2> Resultados alcançados</h2>
+<div id="resultconcl"> 
+<h2> Resultados e Conclusão</h2>
 <div align="justify">
 
-<div id="conclusion"> 
-<h2> Conclusão</h2>
-<div align="justify">
+Conclui-se que o projeto foi implementado de forma satisfatória. O driver e a biblioteca se mostraram funcionais e atenderam aos requisitos propostos. Ademais, foi essencial para expandir o conhecimento acerca do kit de desenvolvimento, GNU/Linux embarcado e a comunicação hardware/software, contribuindo para a sofisticação de projetos futuros a serem implementados no kit de desenvolvimento DE1-SoC.
 
 
 <div id="makefile"> 
